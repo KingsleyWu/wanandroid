@@ -36,9 +36,6 @@ class _IndexPageState extends State<_IndexPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Wan Android"),
-      ),
       body: page[_index],
       bottomNavigationBar: BottomNavigationBar(
         items: [
