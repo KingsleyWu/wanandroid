@@ -8,18 +8,18 @@ import 'home_page.dart';
 class IndexPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return _IndexPage();
+    return IndexPageState();
   }
 }
 
-class _IndexPage extends StatefulWidget {
+class IndexPageState extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return _IndexPageState();
   }
 }
 
-class _IndexPageState extends State<_IndexPage> {
+class _IndexPageState extends State<IndexPageState> {
   int _index = 0;
   List<Widget> page = List();
 
